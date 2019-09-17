@@ -1,3 +1,20 @@
-body {
+
+
+.container{
+    height: 90vh;
+    margin:1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.cell{
+    font-size: 6rem;
+    color:red;
     text-align: center;
+    padding: 2rem;
+}
+
+.cell4{
+    background: gold;
 }

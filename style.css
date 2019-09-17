@@ -6,15 +6,21 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background: green;
 }
 
 .cell{
     font-size: 1rem;
     color:red;
     text-align: center;
+    background: black;
   /*  padding: 1rem; */
 }
 
 .cell4{
     background: gold;
+}
+
+.cell16{
+    background: blue;
 }

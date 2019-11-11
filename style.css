@@ -1,14 +1,26 @@
-.container{
-    display: grid;
-    grid-gap: 20px 20px;
+:root{
+    --grid-cols: 1;
+    --grid-rows: 1;
 }
+
+#container{
+    display: grid;
+    grid-gap: 20px;
+
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+
 
 .grid-item{
     text-align: center;
+    border: 1px solid green;
+    text-align: center;
 }
 
-.body{
-    background-color:black;
+#wholeThing{
+    background-color: gray;
 }
 
 #hdr{

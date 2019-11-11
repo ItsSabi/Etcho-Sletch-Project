@@ -20,3 +20,19 @@ function gridMaker( rows, cols){
 };
 
 gridMaker(16,16);
+
+
+
+//Add hover effect to change the color of a square when the mouse has gone over it. 
+// Can use the 'onmouseover'
+
+container.addEventListener("mouseover", function( event ) {   
+    // highlight the mouseover target
+    event.target.style.color = "purple";
+  
+    // reset the color after a short delay
+    setTimeout(function() {
+      event.target.style.color = "";
+    }, 700);
+  }, false);
+  

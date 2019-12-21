@@ -3,6 +3,7 @@
 const container = document.getElementById('container');
 let row;
 let cols;
+let gridColor = "purple";
 
 function gridMaker( rows, cols){
     container.style.setProperty('--grid-rows', rows);
@@ -28,11 +29,11 @@ gridMaker(16,16);
 
 container.addEventListener("mouseover", function( event ) {   
     // highlight the mouseover target
-    event.target.style.color = "purple";
+    event.target.style.color = gridColor;
   
     // reset the color after a short delay
     setTimeout(function() {
       event.target.style.color = "";
-    }, 700);
+    }, 500000);
   }, false);
   

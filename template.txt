@@ -1,5 +1,0 @@
-subject line (50 chars)
-
-issue no: x
-
-commit body (72 chars)
